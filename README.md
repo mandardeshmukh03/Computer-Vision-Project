@@ -6,4 +6,4 @@ For template matching change the path of template and the image in the program. 
 The function which retrieves all the templates (rotated and scaled) from a folder is commented out. The templates together were large in size, so, they couldn't be uploaded. 
 The function that changes the brightness and scaling are commented, so that they can be used when necessary. We can tweak the values to our liking. 
 
-https://imgflip.com/gif/4q4got
+src="https://imgflip.com/embed/4q4h41"></iframe></div><p><a href="https://imgflip.com/gif/4q4h41">via Imgflip</a></p></div>
