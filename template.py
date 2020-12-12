@@ -12,25 +12,25 @@ import os
 #         if img is not None:
 #             images.append(img)
 #     return images
-def increase_brightness(img, value=30):
-    hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
-    h, s, v = cv2.split(hsv)
+# def increase_brightness(img, value=30):
+#     hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
+#     h, s, v = cv2.split(hsv)
 
-    lim = 255 - value
-    v[v > lim] = 255
-    v[v <= lim] += value
+#     lim = 255 - value
+#     v[v > lim] = 255
+#     v[v <= lim] += value
 
-    final_hsv = cv2.merge((h, s, v))
-    img = cv2.cvtColor(final_hsv, cv2.COLOR_HSV2BGR)
-    return img
+#     final_hsv = cv2.merge((h, s, v))
+#     img = cv2.cvtColor(final_hsv, cv2.COLOR_HSV2BGR)
+#     return img
 img_rgb = cv.imread('fianl.jpeg')
-scale_percent = 90 # percent of original size
-width = int(img_rgb.shape[1] * scale_percent / 100)
-height = int(img_rgb.shape[0] * scale_percent / 100)
-dim = (width, height)
+# scale_percent = 90 # percent of original size
+# width = int(img_rgb.shape[1] * scale_percent / 100)
+# height = int(img_rgb.shape[0] * scale_percent / 100)
+# dim = (width, height)
 #resize image
-img_rgb = cv.resize(img_rgb, dim, interpolation = cv.INTER_AREA)
-img_gray = cv.cvtColor(img_rgb, cv.COLOR_BGR2GRAY)
+#img_rgb = cv.resize(img_rgb, dim, interpolation = cv.INTER_AREA)
+#img_gray = cv.cvtColor(img_rgb, cv.COLOR_BGR2GRAY)
 template = cv.imread('mobi.jpeg',0)
 t1 = cv.imread('bottle.jpeg',0)
 t2 = cv.imread('marker.jpeg',0)
