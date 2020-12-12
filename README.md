@@ -7,4 +7,4 @@ The function which retrieves all the templates (rotated and scaled) from a folde
 The function that changes the brightness and scaling are commented, so that they can be used when necessary. We can tweak the values to our liking. 
 
 
-<a href="https://imgflip.com/gif/4q4hgy"><img src="https://imgflip.com/embed/4q4hgy.gif"></a>
+<a href="https://imgflip.com/gif/4q4hgy"><img src="https://imgflip.com/embed/4q4hgy.gif"/></a>
