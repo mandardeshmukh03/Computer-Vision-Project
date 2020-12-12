@@ -8,3 +8,4 @@ The function that changes the brightness and scaling are commented, so that they
 
 
 <a href="https://imgflip.com/gif/4q4hgy"><img src="https://imgflip.com/embed/4q4hgy.gif"/></a>
+https://imgflip.com/gif/4q4idb
